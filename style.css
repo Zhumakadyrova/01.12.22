@@ -124,6 +124,7 @@ example-1{
 .card {
   background-color: white;
   border: 1px dashed rgb(228, 165, 154);
+  border-radius: 8px;
   box-shadow: 10px 5px 10px 0 rgba(29, 37, 198, 0.603);
   transform:matrix(5%);
   transition: all;
@@ -136,9 +137,10 @@ example-1{
 }
 .card .card-image {
   width: 100%;
+  border-radius: 8px;
 }
 .card .card-content {
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 .card.card-horizonal {
   display: flex;
